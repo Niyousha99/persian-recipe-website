@@ -1,0 +1,46 @@
+th {
+    padding: 0.5%;
+}
+
+h2 {
+    text-align: center;
+    font-size: 3em;
+    background: -webkit-gradient(linear, right top, right bottom, from(#F54768), to(skyblue));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+th > img {
+    width: 100%;
+    aspect-ratio: 16 /9;
+    border-radius: 20px;
+}
+
+.choleric:hover {
+    box-shadow: #FF9677 0px 25px 50px -12px;
+}
+
+.phlegmatic:hover, .sanguine:hover{
+    box-shadow: skyblue 0px 25px 50px -12px;
+}
+
+.melancholic:hover {
+    box-shadow: forestgreen 0px 25px 50px -12px;
+}
+
+.collapsible {
+    cursor: pointer;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+
+.content {
+    display: none;
+    position:absolute;
+    
+    overflow: hidden;
+    background-color: #f1f1f1;
+    width: 40%;
+}
