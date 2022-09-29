@@ -37,11 +37,34 @@ textarea {
     color: white;
 }
 
-.container {
-    align-self: center;
+.contact-container {
+    position: relative;
+    padding-left: 20%;
+}
+
+.form-container {
+    position: absolute;
     width: 50%;
     border-radius: 5px;
     background-color: #FF9677;
     padding: 20px;
     margin: auto;
+    z-index: 1;
+}
+
+.contact-img-container {
+    position: relative;
+    margin-left: 55%;
+    margin-top: 5%;
+    width: 30%;
+    height: 50%;
+}
+
+.contact-img-container img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    position: relative;
+    z-index: 0;
+    box-shadow: rgba(255, 150, 119, 0.4) 5px 5px, rgba(255, 150, 119, 0.3) 10px 10px, rgba(255, 150, 119, 0.2) 15px 15px, rgba(255, 150, 119, 0.1) 20px 20px, rgba(255, 150, 119, 0.05) 25px 25px;
 }
