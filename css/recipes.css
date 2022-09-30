@@ -3,22 +3,11 @@
     font-family: 'Brush Script MT', cursive;
 }
 
-.recipes-intro-div {
-    padding: 0% 25%;
-    width: 50%;
-}
-
-.intro {
-    padding: 5% 10%;
-    font-size: 1em;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    color: white;
-}
-
 .container {
     padding: 2% 10%;
     display: flex;
     gap: 5%;
+    animation: fadeIn 5s;
 }
 
 .card {
